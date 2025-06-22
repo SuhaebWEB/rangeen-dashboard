@@ -1,13 +1,10 @@
-import MiniCalendar from "components/calendar/MiniCalendar"; 
-import TotalSpent from "views/admin/default/components/TotalSpent"; 
+import MiniCalendar from "components/calendar/MiniCalendar";  
 
-import { columnsDataCheck, columnsDataComplex } from "./variables/columnsData";
+import { columnsDataCheck } from "./variables/columnsData";
  
-import CheckTable from "views/admin/default/components/CheckTable";
-import ComplexTable from "views/admin/default/components/ComplexTable"; 
+import CheckTable from "views/admin/default/components/CheckTable"; 
 import TaskCard from "views/admin/default/components/TaskCard";
-import tableDataCheck from "./variables/tableDataCheck.json";
-import tableDataComplex from "./variables/tableDataComplex.json";
+import tableDataCheck from "./variables/tableDataCheck.json"; 
 
 const Dashboard = () => {
   return (
