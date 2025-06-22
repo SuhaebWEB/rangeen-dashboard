@@ -15,7 +15,7 @@ const Dashboard = () => {
       {/* Card widget */}
 
       <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2">
-        <TotalSpent />
+        <MiniCalendar />
         <TaskCard />
       </div>
 
@@ -28,22 +28,7 @@ const Dashboard = () => {
             columnsData={columnsDataCheck}
             tableData={tableDataCheck}
           />
-        </div>
-
-        {/* Complex Table , Task & Calendar */}
-        <div className="col-span-full grid grid-cols-1 md:grid-cols-3 gap-5">
-          <div className="col-span-2">
-            <ComplexTable
-              columnsData={columnsDataComplex}
-              tableData={tableDataComplex}
-            />
-          </div>
-          <div className=" rounded-[20px]">
-            <MiniCalendar />
-          </div>
-        </div>
-
-         
+        </div> 
       </div>
     </div>
   );
